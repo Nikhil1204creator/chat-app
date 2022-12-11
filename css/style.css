@@ -1,0 +1,50 @@
+.container {
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.right {
+    float: right;
+    clear: both;
+    background: pink;
+    width: 40%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+
+.left {
+    float: left;
+    clear: both;
+    background: pink;
+    width: 40%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.message {
+    background-color: pink;
+}
+
+button {
+    padding: 8px;
+    width: 6%;
+    border-radius: 7px;
+    cursor: pointer;
+    border-color: pink;
+}
+
+input[type="text"] {
+    width: 91%;
+    padding: 8px;
+    border-radius: 7px;
+    border-color: pink;
+}
+
+body {
+    width: 61%;
+    margin: auto;
+}
